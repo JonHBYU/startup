@@ -1,4 +1,4 @@
-# Your startup name here
+# Miradoc
 
 [My Notes](notes.md)
 
