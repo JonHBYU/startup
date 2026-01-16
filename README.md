@@ -2,13 +2,10 @@
 
 [My Notes](notes.md)
 
-A brief description of the application here. Can be edited from the Github side too!
+A simple application that allows writing text documents and submitting them, as well as reading and (crucially) liking other's documents.
 
 > [!NOTE]
 > This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
-
-> [!NOTE]
-> If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
 
 ## 🚀 Specification Deliverable
 
@@ -17,45 +14,58 @@ A brief description of the application here. Can be edited from the Github side 
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [X] Proper use of Markdown
+- [X] A concise and compelling elevator pitch
+- [X] Description of key features
+- [X] Description of how you will use each technology
+- [X] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Miradoc uses a minimalist design to quickly allow anyone to submit text documents to the internet, whether that's recipes, novels, essays, or anything else. Simply put in a username and password (no email required) and begin writing or reading documents in literal seconds. You can also like your favorites, and see what is liked by others!
 
 ### Design
 
-![Design image](placeholder.png)
+![Signup Page](Sketchups/SignupPage.png)
+![Login Page](Sketchups/LoginPage.png)
+![Trending Page](Sketchups/TrendingPage.png)
+![Search Page](Sketchups/SearchPage.png)
+![Reader Page](Sketchups/ReaderPage.png)
+![Liked Documents Page](Sketchups/LikedDocumentsPage.png)
+![My Documents Page](Sketchups/MyDocumentsPage.png)
+![Writer Page](Sketchups/WriterPage.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The user will start at the sign up page, and will be able to go to the login page for if they already have an account. From there, they will be brought to the "trending" page, from which they can click documents to read them, search (search page), logout (returned to login page), or go to my documents or liked pages. From document page, they can create a new document, putting them on the writer page.
 
 ```mermaid
 sequenceDiagram
     actor You
-    actor Website
-    You->>Website: Replace this with your design
+    actor Alice
+    actor Bob
+    You->>Server: Liked Bob's work
+    Server -->You: Bob's work likes +1
+    Server -->Alice: Bob's work likes +1
+    Server -->Bob: Bob's work likes +1
 ```
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Email-free signup
+- Search for other authors quickly
+- Keep track of and quickly add new documents to your collection with a dedicated page
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - HTML will be used extensively to define the elements of the website and more general layout
+- **CSS** - CSS will be used to define text sizes/types across pages, as well as other common constants (element sizes, spacing between elements), improving consistency and convenience
+- **React** - React will be used for navigating between different pages easily, such as login/signup pages
+- **Service** 
+    - AWS web services will be used to request documents and other information
+    - Looking at using purgomalum API to check uploaded documents and make sure there's no profanity
+- **DB/Login** - A Database will be used to store the saved documents and their owners, as well as login info
+- **WebSocket** - Websocket will be used to allow users to see updated likes in realtime
 
 ## 🚀 AWS deliverable
 
