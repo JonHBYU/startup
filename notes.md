@@ -10,6 +10,7 @@
 
 My server IP address is: 100.49.237.214
 I might have to change this in future; my school email account was having problems so I ended up making a new account with my personal. Hopefully I can merge them somehow. Also I want to see if the price is still the same for Elastic vs running t3.nano. Command to ssh into server is ssh -i [key file] ubuntu@[IP]
+Domain name is miradoc260.click
 
 ## Caddy
 
