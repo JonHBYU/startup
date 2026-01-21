@@ -8,8 +8,8 @@
 
 ## AWS
 
-My IP address is: 54.81.96.130
-Launching my AMI I initially put it on a private subnet. Even though it had a public IP address and the security group was right, I wasn't able to connect to it.
+My IP address is: 100.49.237.214
+I might have to change this in future; my school email account was having problems so I ended up making a new account with my personal. Hopefully I can merge them somehow. Also I want to see if the price is still the same for Elastic vs running t3.nano
 
 ## Caddy
 
