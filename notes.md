@@ -18,4 +18,4 @@ Worked smoothly; I'd like to study Caddy a little bit more though.
 
 ## HTML
 
-Something I'm getting from Codepen practice (https://codepen.io/JWHitch/pen/YPWYqEJ) is you really need to have the right element for the attributes you're using; you can't just add an img or href to anything.
+Something I'm getting from Codepen practice (https://codepen.io/JWHitch/pen/YPWYqEJ, forked from https://codepen.io/leesjensen/pen/GRGBqbw) is you really need to have the right element for the attributes you're using; you can't just add an img or href to anything.
