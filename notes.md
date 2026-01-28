@@ -14,10 +14,8 @@ Domain name is miradoc260.click
 
 ## Caddy
 
-No problems worked just like it said in the [instruction](https://github.com/webprogramming260/.github/blob/main/profile/webServers/https/https.md).
+Worked smoothly; I'd like to study Caddy a little bit more though.
 
 ## HTML
 
-This was easy. I was careful to use the correct structural elements such as header, footer, main, nav, and form. The links between the three views work great using the `a` element.
-
-The part I didn't like was the duplication of the header and footer code. This is messy, but it will get cleaned up when I get to React.
+Something I'm getting from Codepen practice is you really need to have the right element for the attributes you're using; you can't just add an img or href to anything.
