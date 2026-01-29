@@ -77,15 +77,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [X] **HTML pages** - All 8 HTML pages are written up; some might be consolidatable later
+- [X] **Proper HTML element usage** - I used the header/main/footer paradigm across the project, and used div/nav when I saw good opportunities
+- [X] **Links** - There are links between the pages as appropriate
+- [X] **Text** - Placeholder text is present
+- [X] **3rd party API placeholder** - This will be part of the "submit" button on the writer form; sending out the text to purgomalum to check for profanity
+- [X] **Images** - I used images where I'll want them in the final app
+- [X] **Login placeholder** - Dummy login present at index.html
+- [X] **DB data placeholder** - The documents present on the trending (and other) pages represent data that would be stored in the DB, as well as the content on reader.html
+- [X] **WebSocket placeholder** - The "Likes" counters should update dynamically with websockets in the finished application; I just used placeholders to represent those.
 
 ## 🚀 CSS deliverable
 
