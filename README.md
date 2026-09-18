@@ -12,7 +12,7 @@ A brief description of the application here. Lorem ipsum dolor sit amet, consect
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Online video games are a hugely profitable industry. However, many online games have shifted away from a focus on the fun of being together, and instead focus heavily on content that is expensive to develop and maintain. Games don't need to be like this. Introducing Peasants and Plunderers, a game designed to be simple to implement while only using a trivial amount of server resources. Despite this, it is still designed to be fun and invite the kind of camaraderie that board games of past decades brought, while being playable with friends online.
 
 ### Design
 
