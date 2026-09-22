@@ -2,8 +2,8 @@
 
 I love web programming!
 
-- [My startup](https://startup.cs260.click)
-- [My simon](https://simon.cs260.click)
+- [My startup](https://startup.peasantsandplunderers.click)
+- [My simon](https://simon.peasantsandplunderers.click)
 
 ## Helpful links
 
