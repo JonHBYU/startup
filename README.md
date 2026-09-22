@@ -37,12 +37,12 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Basic functionality/elements of website front-end.
+- **CSS** - Layout of website, animations where appropriate.
+- **React** - Updating webpage as one navigates the different pages. Also driving updates on the main game page.
+- **Service** - Receiving commands from front end (such as account creation/verification), processing rules, and updating DB accordingly.
+- **DB/Login** - Saving user accounts, game state, and high scores.
+- **WebSocket** - Allowing backend to update clients when new game state information is available.
 
 ## 🚀 Specification Deliverable
 
