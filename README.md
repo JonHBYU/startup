@@ -29,9 +29,9 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Play online in 4 player mode
+- Create an account with no personal info (solely username and password) and have personal high score saved
+- Initialize a new game, or use a join code to enter an existing game
 
 ### Technologies
 
