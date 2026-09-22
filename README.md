@@ -37,10 +37,16 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Basic functionality/elements of website front-end.
-- **CSS** - Layout of website, animations where appropriate.
-- **React** - Updating webpage as one navigates the different pages. Also driving updates on the main game page.
-- **Service** - Receiving commands from front end (such as account creation/verification), processing rules, and updating DB accordingly.
+- **HTML** - Basic functionality/elements of website front-end. Login and register pages, as well as a "startup" page to create/join game, and a game page
+- **CSS** - Layout of website, proper formatting on mobile and desktop screens. Welcoming element designs (buttons, forms etc).animations where appropriate.
+- **React** - Updating webpage as one navigates the different pages. Logic such as submitting decisions on the main game page, and requests to join/create games. Driving updates on the main game page.
+- **Service** - Backend service, including endpoints for:
+    - Creating an account
+    - Logging in
+    - Requesting a new game
+    - Joining an existing game
+    - Submitting a game decision
+    - Retrieving a personal high score
 - **DB/Login** - Saving user accounts, game state, and high scores.
 - **WebSocket** - Allowing backend to update clients when new game state information is available.
 
