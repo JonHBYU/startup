@@ -31,8 +31,12 @@ The end of a game. Kyle has won:
 ```mermaid
 sequenceDiagram
     actor You
+    actor OtherPlayers
     actor Website
-    You->>Website: Replace this with your design
+    You-->>Website: Action requests sent this way
+    OtherPlayers-->>Website:
+    Website->>You: After all players have sent their requests, the server processes and uses a webhook to notify them of new data
+    Website->>OtherPlayers:
 ```
 
 ### Key features
