@@ -15,10 +15,18 @@ A brief description of the application here. Lorem ipsum dolor sit amet, consect
 Online video games are a hugely profitable industry. However, many online games have shifted away from a focus on the fun of being together, and instead focus heavily on content that is expensive to develop and maintain. Games don't need to be like this. Introducing Peasants and Plunderers, a game designed to be simple to implement while only using a trivial amount of server resources. Despite this, it is still designed to be fun and invite the kind of camaraderie that board games of past decades brought, while being playable with friends online.
 
 ### Design
-
-![Design image](placeholder.png)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Users register here:
+![Register page image](assets/imgs/Register-Page.png)
+A similar page, but for those who already have an account:
+![Login page image](assets/imgs/Login-Page.png)
+The "main" page, after someone logs in:
+![Landing page image](assets/imgs/Landing-Page.png)
+After everyone has decided whether to "farm", "guard" or "plunder"; a similar screen should display while the user is waiting on others:
+![Game page image 1](assets/imgs/Game-Page1.png)
+The results after a round is processed:
+![Game page image 2](assets/imgs/Game-Page2.png)
+The end of a game. Kyle has won:
+![Game page image 3](assets/imgs/Game-Page3.png)
 
 ```mermaid
 sequenceDiagram
@@ -58,8 +66,8 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Git commit requirement)
-- [ ] Proper use of Markdown
+- [x] I completed the prerequisites for this deliverable (Git commit requirement)
+- [x] Proper use of Markdown
 - [x] A concise and compelling elevator pitch
 - [x] Description of key features
 - [x] Description of how you will use each technology including your 3rd party API and use of WebSocket
