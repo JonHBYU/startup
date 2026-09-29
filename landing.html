@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Peasants and Plunderers</title>
+    <title>Peasants and Plunderers | Home</title>
     <link rel="icon" href="favicon.ico" />
   </head>
   <body>
@@ -16,6 +16,9 @@
       <nav>
         <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
         <menu>
+          <li><p>Your Highscore: <span id="score-value">&lt;score&gt;</span></p></li>
+          <li><a href="index.html">Delete Account</a></li>
+          <li><a href="login.html">Logout</a></li>
         </menu>
       </nav>
       <hr />
@@ -23,11 +26,14 @@
     </header>
 
     <main>
-
-
-
-      
-      <hr />
+        <div>
+          <span>Welcome, &lt;username&gt;!</span>
+          <p>Enter game code below, or leave blank to start a new game:</p>
+          <div>
+            <input type="number" placeholder="Game Code" />
+            <button type="submit">Start Game</button>
+          </div>
+        </div>
     </main>
 
     <footer>
