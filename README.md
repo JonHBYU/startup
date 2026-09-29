@@ -16,17 +16,17 @@ Online video games are a hugely profitable industry. However, many online games 
 
 ### Design
 Users register here:
-![Register page image](assets/imgs/Register-Page.png)
+![Register page image](assets/imgs/dev/Register-Page.png)
 A similar page, but for those who already have an account:
-![Login page image](assets/imgs/Login-Page.png)
+![Login page image](assets/imgs/dev/Login-Page.png)
 The "main" page, after someone logs in:
-![Landing page image](assets/imgs/Landing-Page.png)
+![Landing page image](assets/imgs/dev/Landing-Page.png)
 After everyone has decided whether to "farm", "guard" or "plunder"; a similar screen should display while the user is waiting on others:
-![Game page image 1](assets/imgs/Game-Page1.png)
+![Game page image 1](assets/imgs/dev/Game-Page1.png)
 The results after a round is processed:
-![Game page image 2](assets/imgs/Game-Page2.png)
+![Game page image 2](assets/imgs/dev/Game-Page2.png)
 The end of a game. Kyle has won:
-![Game page image 3](assets/imgs/Game-Page3.png)
+![Game page image 3](assets/imgs/dev/Game-Page3.png)
 
 ```mermaid
 sequenceDiagram
