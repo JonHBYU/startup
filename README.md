@@ -90,15 +90,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [x] **HTML pages** - I did not complete this part of the deliverable.
-- [x] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [x] **Links** - I did not complete this part of the deliverable.
-- [x] **Text** - I did not complete this part of the deliverable.
-- [x] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [x] **Images** - I did not complete this part of the deliverable.
-- [x] **Login placeholder** - I did not complete this part of the deliverable.
-- [x] **DB data placeholder** - I did not complete this part of the deliverable.
-- [x] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - I believe I have all the pages needed for my basic application
+- [x] **Proper HTML element usage** - I used HTML tags appropriately
+- [x] **Links** - I linked different parts of the website together
+- [x] **Text** - I added text content to the website
+- [x] **3rd party API placeholder** - I plan to make avatars for users (https://ui-avatars.com/) when they register
+- [x] **Images** - I showed placeholder avatars
+- [x] **Login placeholder** - I showed where login data could show up (highscore and username)
+- [x] **DB data placeholder** - I showed stored avatars, as well as user highscore data and game data
+- [x] **WebSocket placeholder** - I made a page to illustrate this (gamepage-processing.html), which would just wait for a "processing finished" message through websocket to progress to "gamepage-update.html"
 
 ## 🚀 CSS deliverable
 
