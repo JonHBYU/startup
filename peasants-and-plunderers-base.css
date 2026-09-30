@@ -42,3 +42,56 @@ body {
     color: #d32424
 }
 
+.warning-color {
+    color: #960000;
+}
+
+.caution-color {
+    color: #ebcd08
+}
+
+button.farming-bold {
+    background-color: #ffb500;
+    color: white
+}
+
+button.farming-color-normal {
+    background-color: orange;
+    color: white
+}
+
+button.guarding-bold {
+    background-color: #0649e8;
+    color: white
+}
+
+button.guarding-color-normal {
+    background-color: #0072c9;
+    color: white
+}
+
+button.plundering-bold {
+    background-color: red;
+    color: white
+}
+
+button.plundering-color-normal {
+    background-color: #d32424;
+    color: white
+}
+
+button.warning-color {
+    background-color: #960000;
+    color: white
+}
+
+button.caution-color {
+    background-color: #ebcd08;
+    color: white
+}
+
+
+
+.avatar-img-small {
+    width: 3.5rem;
+}
