@@ -16,6 +16,7 @@
       <nav>
         <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
         <menu>
+          <li><a href="landing.html">Quit</a></li>
         </menu>
       </nav>
       <hr />
@@ -23,11 +24,26 @@
     </header>
 
     <main>
-
-
-
-      
+        <div>
+          <p>
+            How to play: each round, decide whether you want to <span>farm</span> <span>guard</span> or <span>plunder</span>.
+            Each farmer produces 100 points for themselves base. However:
+          </p>
+          <ul>
+            <li>If there is more plunderers than guards, the plunders steal all the round's points and divide them between themselves</li>
+            <li>Each guard "taxes" each farmer 20 points for defense.
+                If they actually defend an attack (there is more than 0 plunderers) they take 40 (each) from each farmer</li>
+          </ul>
+          <p>
+            Whoever has the most points at the end wins. Good luck!
+          </p>
+        </div>
       <hr />
+      <form method="get" action="gamepage-processing.html">
+        <button type="submit">Farm</button>
+        <button type="submit">Guard</button>
+        <button type="submit">Plunder</button>
+      </form>
     </main>
 
     <footer>
