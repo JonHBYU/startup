@@ -13,3 +13,19 @@ body {
     font-family: sans-serif;
     font-size: medium;
 }
+
+.technical-button {
+    font-family: "Roboto", sans-serif;
+}
+
+.farming-bold {
+    color: yellow;
+}
+
+.guarding-bold {
+    color: mediumblue;
+}
+
+.plundering-bold {
+    color: red;
+}
