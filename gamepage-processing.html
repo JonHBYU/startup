@@ -11,12 +11,12 @@
     <!-- Use header, main, and footer elements to give semantic structure -->
     <header>
       <h1>Peasants and Plunderers</h1>
-      <h4>Game code: &lt;code&gt;</h4>
+      <h4 class="game-code-notification">Game code: &lt;code&gt;</h4>
       <!-- Navigation elements -->
       <nav>
         <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
         <menu>
-          <li><a href="landing.html">Quit Game</a></li>
+          <li><a href="landing.html" class="link-warning">Quit Game</a></li>
         </menu>
       </nav>
       <hr />
@@ -25,38 +25,38 @@
 
     <main>
       <div>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" width="32px">
-        <span> -> 500</span>
+        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
+        <span class="score-text-midgame"> -> 500</span>
       </div>
       <div>
         <span>(me)</span>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" width="32px">
-        <span> -> 300</span>
+        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
+        <span class="score-text-midgame"> -> 300</span>
       </div>
       <div>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" width="32px">
-        <span> -> 200</span>
+        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
+        <span class="score-text-midgame"> -> 200</span>
       </div>
       <div>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" width="32px">
-        <span> -> 450</span>
+        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
+        <span class="score-text-midgame"> -> 450</span>
       </div>
       <div>
         <p>Everyone selected an option. Processing results...</p>
       </div>
       <hr />
       <form method="get" action="gamepage-update.html">
-        <button type="submit">Farm</button>
-        <button type="submit">Guard</button>
-        <button type="submit">Plunder</button>
+        <button type="submit" class="technical-button disabled-button">Farm</button>
+        <button type="submit" class="technical-button disabled-button">Guard</button>
+        <button type="submit" class="technical-button disabled-button">Plunder</button>
       </form>
     </main>
 
     <footer>
       <hr />
-      <span>Jon Hitchcock, Copyright 2026</span>
+      <span class="copyright-disclaimer">Jon Hitchcock, Copyright 2026</span>
       <br />
-      <a href="https://github.com/JonHBYU/startup">GitHub</a>
+      <a href="https://github.com/JonHBYU/startup" class="special-link">GitHub</a>
     </footer>
   </body>
 </html>
