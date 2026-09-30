@@ -22,10 +22,23 @@ body {
     color: #ffb500;
 }
 
+.farming-color-normal {
+    color: orange
+}
+
 .guarding-bold {
     color: mediumblue;
+}
+
+.guarding-color-normal {
+    color: #008fff
 }
 
 .plundering-bold {
     color: red;
 }
+
+.plundering-color-normal {
+    color: #d32424
+}
+
