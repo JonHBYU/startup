@@ -109,7 +109,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Use of a CSS framework** - Used bootstrap throughout website
 - [x] **All visual elements styled using CSS** - Technically; some need more
 - [ ] **Responsive to window resizing using flexbox and/or grid display** - I did not complete this part of the deliverable.
-- [ ] **Use of a imported font** - I imported several Google fonts
+- [x] **Use of a imported font** - I imported several Google fonts
 - [ ] **Use of different types of selectors including element, class, ID, and pseudo selectors** - Partial; I used element and class selectors but didn't get to the others yet.
 
 ## 🚀 React part 1: Routing deliverable
