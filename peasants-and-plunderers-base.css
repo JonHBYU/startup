@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Metamorphous", serif;
+}
+
+.copyright-disclaimer {
+    font-family: serif;
+    font-weight: bold;
+}
+
+.special-link {
+    font-family: sans-serif;
+    font-size: medium;
+}
