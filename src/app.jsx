@@ -17,7 +17,7 @@ export default function App() {
                 <header className="container-fluid">
                     <nav className="navbar fixed-top navbar-dark">
                         <div className="navbar-brand">
-                            Simon<sup>&reg;</sup>
+                            Peasants and Plunderers
                         </div>
                         <menu className="navbar-nav">
                             <li className="nav-item">
