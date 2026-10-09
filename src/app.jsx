@@ -43,6 +43,7 @@ export default function App() {
                     <Route path='/' element={<Register />} exact />
                     <Route path='/login' element={<Login />} />
                     <Route path='/landing' element={<Landing />} />
+                    <Route path='*' element={<NotFound />} />
                 </Routes>
 
                 <footer className="bg-dark text-white-50">
@@ -56,4 +57,8 @@ export default function App() {
             </div>
         </BrowserRouter>
     );
+}
+
+function NotFound() {
+  return <main className="container-fluid bg-secondary text-center">404: There's highwaymen out here! What are you doing?!</main>;
 }
