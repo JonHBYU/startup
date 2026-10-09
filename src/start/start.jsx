@@ -5,7 +5,7 @@ export function Start() {
     <main>
         <div>
           <p>
-            How to play: each round, decide whether you want to <span class="farming-bold">farm</span>, <span class="guarding-bold">guard</span>, or <span class="plundering-bold">plunder</span>.
+            How to play: each round, decide whether you want to <span className="farming-bold">farm</span>, <span className="guarding-bold">guard</span>, or <span className="plundering-bold">plunder</span>.
             Each farmer produces 100 points for themselves base. However:
           </p>
           <ul>
@@ -19,9 +19,9 @@ export function Start() {
         </div>
       <hr />
       <form method="get" action="gamepage-processing.html">
-        <button type="submit" class="btn technical-button farming-color-normal">Farm</button>
-        <button type="submit" class="btn technical-button guarding-color-normal">Guard</button>
-        <button type="submit" class="btn technical-button plundering-color-normal">Plunder</button>
+        <button type="submit" className="btn technical-button farming-color-normal">Farm</button>
+        <button type="submit" className="btn technical-button guarding-color-normal">Guard</button>
+        <button type="submit" className="btn technical-button plundering-color-normal">Plunder</button>
       </form>
     </main>
   );

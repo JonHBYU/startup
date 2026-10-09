@@ -5,27 +5,27 @@ export function Finished() {
     <main>
       <h2>KYLE WINS!</h2>
       <div>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
+        <img src="assets/imgs/dev/Account-Image-Generic.png" className="avatar-img-small">
         <p>500</p>
       </div>
       <hr />
       <div>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
+        <img src="assets/imgs/dev/Account-Image-Generic.png" className="avatar-img-small">
         <p>300</p>
       </div>
       <hr />
       <div>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
+        <img src="assets/imgs/dev/Account-Image-Generic.png" className="avatar-img-small">
         <p>200</p>
       </div>
       <hr />
       <div>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
+        <img src="assets/imgs/dev/Account-Image-Generic.png" className="avatar-img-small">
         <p>450</p>
       </div>
       <hr />
       <form method="get" action="landing.html">
-        <button type="submit" class="btn technical-button warning-color">Exit</button>
+        <button type="submit" className="btn technical-button warning-color">Exit</button>
       </form>
     </main>
   );

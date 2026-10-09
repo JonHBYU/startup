@@ -12,8 +12,8 @@ export function Register() {
             <input type="text" placeholder="Username" id="username-field"/>
             <input type="password" placeholder="Password" id="password-field"/>
         </div>
-        <a href="login.html" class="special-link">Already Have an Account?</a>
-        <button type="submit" class="btn btn-primary technical-button" id="register-button">Register</button>
+        <a href="login.html" className="special-link">Already Have an Account?</a>
+        <button type="submit" className="btn btn-primary technical-button" id="register-button">Register</button>
       </form>
     </main>
   );

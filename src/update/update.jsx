@@ -4,21 +4,21 @@ export function Update() {
   return (
     <main>
       <div>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
-        <span class="score-text-midgame"> -> 500</span>
+        <img src="assets/imgs/dev/Account-Image-Generic.png" className="avatar-img-small">
+        <span className="score-text-midgame"> -> 500</span>
       </div>
       <div>
         <span>(me)</span>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
-        <span class="score-text-midgame"> -> 300</span>
+        <img src="assets/imgs/dev/Account-Image-Generic.png" className="avatar-img-small">
+        <span className="score-text-midgame"> -> 300</span>
       </div>
       <div>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
-        <span class="score-text-midgame"> -> 200</span>
+        <img src="assets/imgs/dev/Account-Image-Generic.png" className="avatar-img-small">
+        <span className="score-text-midgame"> -> 200</span>
       </div>
       <div>
-        <img src="assets/imgs/dev/Account-Image-Generic.png" class="avatar-img-small">
-        <span class="score-text-midgame"> -> 450</span>
+        <img src="assets/imgs/dev/Account-Image-Generic.png" className="avatar-img-small">
+        <span className="score-text-midgame"> -> 450</span>
       </div>
       <div>
         <p>&lt;player1&gt; and &lt;player2&gt; farmed, &lt;player3&gt; guarded, &lt;player4&gt; plundered</p>
@@ -30,9 +30,9 @@ export function Update() {
       </div>
       <hr />
       <form method="get" action="gamepage-finished.html">
-        <button type="submit" class="btn technical-button farming-color-normal">Farm</button>
-        <button type="submit" class="btn technical-button">Guard</button>
-        <button type="submit" class="btn technical-button">Plunder</button>
+        <button type="submit" className="btn technical-button farming-color-normal">Farm</button>
+        <button type="submit" className="btn technical-button">Guard</button>
+        <button type="submit" className="btn technical-button">Plunder</button>
       </form>
     </main>
   );
